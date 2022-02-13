@@ -1,0 +1,26 @@
+{
+  "car1":{
+    "name": "Mersedes",
+    "year": "2007",
+    "mileage": "12000",
+    "image": "https://dailystorm.ru/media/images/2020/09/29/843a1336-4b8d-412c-a97d-d1369d440730.jpg"
+  },
+  "car2":{
+    "name": "Bugatti",
+    "year": "2010",
+    "mileage": "10000",
+    "image": "https://cdnimg.rg.ru/img/content/187/07/30/11_t_650x433.jpg"
+  },
+  "car3":{
+    "name": "Ferrary",
+    "year": "2015",
+    "mileage": "8000",
+    "image": "https://cdn-4.brodude.ru/Bx8n6WalfqS001uoO5sMC-m3hzsg4SGUm7OK6bPNbBg/rs:fill:1090:650:0/g:ce:0:0/c:0:0/aHR0cHM6Ly9icm9kdWRlLnJ1L3dwLWNvbnRlbnQvdXBsb2Fkcy8yMDE2LzAyL2Jyb2R1ZGUucnVfMS4wMi4yMDE2X2NOVWlsQkJlTXhaRTUucG5n"
+  },
+  "car4":{
+    "name": "Bently",
+    "year": "2017",
+    "mileage": "5000",
+    "image": "https://s0.rbk.ru/v6_top_pics/media/img/5/91/756165191653915.jpg"
+  }
+}

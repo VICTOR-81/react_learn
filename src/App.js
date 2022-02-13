@@ -1,25 +1,23 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import CarImg from './components/CarImg';
+import car_info from './databases/cars-info';
+import { DropDownContext } from './DropDownContext';
+
 
 function App() {
+
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+  const car_array = Object.keys(car_info).map((key) => car_info[key]);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <DropDownContext.Provider value={[dropdownOpen, setDropdownOpen]}>
+        <CarImg car_info={car_array} />
+      </DropDownContext.Provider>
     </div>
   );
-}
+
+};
 
 export default App;
